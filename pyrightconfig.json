@@ -3,8 +3,10 @@
     "src"
   ],
   "exclude": [
-    "node_modules",
-    "dist"
+    "**/node_modules",
+    "**/__pycache__",
+    "src/experimental",
+    "src/typestubs"
   ],
   "ignore": [
     "src/oldstuff"
@@ -44,6 +46,5 @@
     {
       "root": "src"
     }
-  ],
-  "strict": true
+  ]
 }

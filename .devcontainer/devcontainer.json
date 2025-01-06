@@ -21,15 +21,8 @@
 
 	// Features to add to the dev container. More info: https://containers.dev/features
 	"features": {
-		"ghcr.io/devcontainers-contrib/features/poetry:2": {},
-		"ghcr.io/devcontainers/features/google-cloud-sdk:1": {},
-		"ghcr.io/devcontainers/features/google-cloud-aiplatform:1": {},
-		"ghcr.io/devcontainers/features/google-cloud-ml-metadata:1": {},
-		"ghcr.io/devcontainers/features/azure-cli:1": {},
-		"ghcr.io/devcontainers/features/requests-mock:1": {},
-		"ghcr.io/devcontainers/features/curl:1": {},
-		"ghcr.io/devcontainers/features/python:1": {}
-	},
+		"ghcr.io/devcontainers-contrib/features/poetry:2": {}
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [8000],

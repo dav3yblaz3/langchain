@@ -76,21 +76,3 @@ lint lint_package lint_tests:
 format format_diff:
 	poetry run ruff format docs cookbook
 	poetry run ruff check --select I --fix docs cookbook
-
-## test-community: Run tests for the langchain-community package.
-test-community:
-	poetry run pytest libs/community/tests
-
-.PHONY: format lint test spell_check
-
-format:
-	black .
-
-lint:
-	ruff .
-
-test:
-	pytest
-
-spell_check:
-	codespell
