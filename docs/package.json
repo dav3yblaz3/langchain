@@ -30,7 +30,7 @@
     "@mdx-js/react": "^3",
     "@supabase/supabase-js": "^2.39.7",
     "clsx": "^1.2.1",
-    "cookie": "^0.6.0",
+    "cookie": "^0.7.0",
     "isomorphic-dompurify": "^2.7.0",
     "json-loader": "^0.5.7",
     "prism-react-renderer": "^2.1.0",
